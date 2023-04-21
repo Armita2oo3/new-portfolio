@@ -1,0 +1,82 @@
+.home {
+  background-color: #eaf6f6;
+  padding: 30px;
+  padding-bottom: 130px;
+  margin-bottom: 40px;
+}
+.home .img-fluid {
+  position: absolute;
+  top: 0px;
+  right: 70px;
+  width: 35%;
+  height: auto;
+  float: right;
+}
+.home h5 {
+  opacity: 0.8;
+  padding-top: 12%;
+  font-size: 12px;
+}
+.home h1 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1;
+}
+.home .btn {
+  padding: 15px 30px;
+  border: 2px solid #66bfbf;
+  border-radius: 4px;
+  text-decoration: none;
+  color: gray;
+  margin: 10px;
+}
+.container h2 {
+  font-size: 30px;
+  line-height: 2;
+}
+.container p {
+  line-height: 1.2;
+  font-size: 18px;
+  color: grey;
+}
+.container .img-fluid {
+  width: 100%;
+}
+@media (min-width: 1000px) {
+  .container p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: grey;
+  }
+  .container h2 {
+    font-size: 35px;
+    line-height: 2;
+  }
+
+  .home .img-fluid {
+    width: 30%;
+    height: auto;
+    right: 100px;
+  }
+  .home h5 {
+    opacity: 0.8;
+    padding-top: 10%;
+    font-size: 18px;
+  }
+  .home h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .home p {
+    font-size: 25px;
+  }
+  .home .btn {
+    padding: 18px 35px;
+    border: 2px solid #66bfbf;
+    border-radius: 4px;
+    text-decoration: none;
+    color: gray;
+    margin: 10px;
+  }
+}
