@@ -7,7 +7,7 @@
 .home .img-fluid {
   position: absolute;
   top: 0px;
-  right: 70px;
+  right: 80px;
   width: 35%;
   height: auto;
   float: right;
@@ -17,7 +17,7 @@
   padding-top: 12%;
   font-size: 12px;
 }
-.home h1 {
+h1 {
   font-size: 55px;
   font-weight: 700;
   line-height: 1;
@@ -42,6 +42,15 @@
 .container .img-fluid {
   width: 100%;
 }
+.navbar {
+  position: fixed;
+}
+.about {
+  margin-top: 160px;
+}
+.weather {
+  height: 770px;
+}
 @media (min-width: 1000px) {
   .container p {
     font-size: 25px;
@@ -63,7 +72,7 @@
     padding-top: 10%;
     font-size: 18px;
   }
-  .home h1 {
+  h1 {
     font-size: 75px;
     font-weight: 700;
     line-height: 1;
@@ -78,5 +87,22 @@
     text-decoration: none;
     color: gray;
     margin: 10px;
+  }
+}
+@media (max-width: 630px) {
+  .img-fluid {
+    display: none;
+  }
+  .home {
+    text-align: center;
+  }
+  .apps {
+    display: none;
+  }
+  .paragraph {
+    justify-content: center;
+  }
+  .about .img-fluid {
+    display: block;
   }
 }
