@@ -60,6 +60,20 @@ h1 {
 .about h1 {
   margin-bottom: 100px;
 }
+.contact img {
+  margin-top: 40px;
+
+  height: 59%;
+
+  padding: 10px;
+}
+.contact {
+  padding: 60px;
+  padding-top: 117px;
+  padding-bottom: 130px;
+  margin-bottom: 100px;
+}
+
 @media (min-width: 1000px) {
   .container p {
     font-size: 25px;
@@ -97,6 +111,11 @@ h1 {
     color: gray;
     margin: 10px;
   }
+  .contact .img-fluid {
+    width: 160px;
+    display: block;
+    margin: auto;
+  }
 }
 @media (max-width: 666px) {
   .img-fluid {
@@ -113,5 +132,9 @@ h1 {
   }
   .about .img-fluid {
     display: block;
+  }
+  .contact .img-fluid {
+    display: block;
+    height: 49%;
   }
 }
