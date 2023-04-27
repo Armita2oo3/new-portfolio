@@ -117,6 +117,11 @@ h1 {
     margin: auto;
   }
 }
+@media (min-width: 666px) {
+  .contact .img-fluid {
+    width: 60%;
+  }
+}
 @media (max-width: 666px) {
   .img-fluid {
     display: none;
@@ -134,7 +139,16 @@ h1 {
     display: block;
   }
   .contact .img-fluid {
-    display: block;
-    height: 49%;
+    height: 44%;
+
+    display: flex;
+    justify-content: center;
+  }
+  .contact .container {
+    padding: 0px;
+    margin: 0;
+  }
+  .contact h4 {
+    font-size: 18px;
   }
 }
