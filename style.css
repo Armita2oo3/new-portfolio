@@ -97,7 +97,10 @@ h1 {
   padding: 3px;
   border-radius: 4px;
 }
-
+.navbar-nav a:hover,
+.navbar-nav a:active {
+  color: #66bfbf;
+}
 @media (min-width: 1000px) {
   .container p {
     font-size: 25px;
